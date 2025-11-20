@@ -18,7 +18,7 @@ mongoose.connect(MONGODB_URI, {
   .then(() => console.log("✅ MongoDB Connected"))
   .catch((err) => console.error("❌ DB Connection Error:", err));
 
-// ✅ Schema & Model for Users
+// ✅ Schema & Model for User
 const userSchema = new mongoose.Schema({
   username: { type: String, required: true, unique: true },
   email: { type: String, required: true, unique: true },
