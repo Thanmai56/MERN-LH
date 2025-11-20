@@ -12,7 +12,7 @@ const Landing = () => {
         <div className="landing-page">
             <section className="hero">
                 <nav className="navbar">
-                    <div className="logo">EduStream</div>
+                    <div className="logo">EduS</div>
                     <div className="nav-links">
                         <a href="#courses">Courses</a>
                         <a href="#about">About</a>
